@@ -1,0 +1,115 @@
+header {
+    padding: 1.111rem 0.8333rem;
+}
+
+header .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .wrap .header-btn .button {
+    height:2.9444rem;
+    width:2.9444rem;
+    background-color: #17242a;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+header .wrap .header-btn .button .line {
+    background-color: #fff;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 1.5rem;
+    z-index: 10;
+}
+
+header .wrap .header-btn .button .line:nth-child(2) {
+    top: 55%;
+}
+
+header .wrap .header-btn .button .single-color {
+    border-radius: 50%;
+    bottom: -100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: all 1s cubic-bezier(.075, .82, .165, 1);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 100%;
+}
+
+header .wrap .header-btn .button .single-color:first-child {
+    background: #f9f971ea;
+}
+
+header .wrap .header-btn .button .single-color:nth-child(2) {
+    background: #104d54;
+    transition-delay: .2s;
+}
+
+header .wrap .header-btn .button:hover .single-color:first-child,
+header .wrap .header-btn .button:hover .single-color:nth-child(2),
+header .wrap .header-btn .button:hover .single-color:nth-child(3) {
+    bottom: 0;
+}
+
+header .wrap .logo a span {
+    position: relative;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+header .logo a {
+    font-size: 2rem;
+}
+header .wrap .logo a:hover span {
+    margin-left:0.333rem;
+}
+
+header .wrap .logo a span:first-child:after,
+header .wrap .logo a span:nth-child(2):after {
+    position: absolute;
+    // content: "";
+    background-color: #1a2023;
+    border-radius: 50%;
+    height: 0.2666rem;
+    width: 0.2666rem;
+    bottom: 0.2777rem;
+    right: -0.433rem;
+    transform: scale(0);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header .wrap .logo a:hover span:first-child:after,
+header .wrap .logo a:hover span:nth-child(2):after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+header .menu {
+    background-color: #17242a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .251);
+    color: #fff;
+    padding: 5.555rem 0 2.222rem 2.222rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: translateY(-105%);
+    transform: translateY(-105%);
+    transition: all 1.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 30%;
+    z-index: 100;
+}
+
+header .menu.menu-active {
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+}
+

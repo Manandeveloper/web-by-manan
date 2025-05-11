@@ -1,0 +1,871 @@
+@import 'fonts';
+
+html * {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+}
+
+html {
+    font-size: clamp(14px, 1vw, 18px);
+}
+
+html body {
+    font-family: 'Agharti Demi';
+    font-weight: normal;
+    background: #f8f8f8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2C3333;
+    overflow: hidden;
+}
+
+a:focus {
+    -moz-outline-style: none;
+    outline: none;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+input[type=file]::-moz-file-upload-button {
+    cursor: pointer;
+}
+
+input[type=file]::-ms-file-upload-button {
+    cursor: pointer;
+}
+
+input[type=file]::-o-file-upload-button {
+    cursor: pointer;
+}
+
+input[type=file] {
+    cursor: pointer;
+}
+
+*::-moz-selection {
+    color: #fff;
+    background: #2C3333;
+}
+
+*::selection {
+    color: #fff;
+    background: #2C3333;
+}
+
+*::-moz-selection {
+    color: #fff;
+    background: #2C3333;
+}
+
+*::-webkit-selection {
+    color: #fff;
+    background: #2C3333;
+}
+
+*::-ms-selection {
+    color: #fff;
+    background: #2C3333;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    font-family: 'Agharti Demi';
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+a,
+span,
+div a:hover,
+div a:active,
+button {
+    text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body a {
+    color: #2C3333;
+    font-family: 'Agharti Demi';
+    font-style: normal;
+    line-height: 144%;
+    display: inline-block;
+}
+
+body a:focus {
+    outline: none !important;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul:after,
+li:after,
+.container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    outline: none !important;
+}
+
+#root {
+    position: relative;
+}
+
+#root::after {
+    position: absolute;
+    content: "";
+    filter: opacity(.5);
+    background-image: url(../images/noisy.21451b8adeeb1d49fbc1.png);
+    background-position: 50%;
+    background-repeat: repeat;
+    height: 150%;
+    left: 0;
+    pointer-events: none;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+
+@import 'header';
+
+.element::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    width: 96.111rem;
+    padding: 0 0.555rem;
+    margin: 0 auto;
+}
+
+.page-bar {
+    width: 0.444rem;
+    height: 8.333rem;
+    background-color: #d8d8d8;
+    position: fixed;
+    top: 50%;
+    right: 1.111rem;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.page-bar-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #17242a;
+    width: 100%;
+    height: 10%;
+    border-radius: 20px;
+}
+
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+.hero-white {
+    background-color: #f8f8f8;
+    content: "";
+    height: 100dvh;
+    left: 0;
+    position: absolute;
+    top: 110%;
+    width: 100%;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-size: 16rem;
+}
+
+.about {
+    position: relative;
+    padding-top: 11.111rem;
+    width: 100%;
+    background-color: var(--bg);
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    top: -19.444rem;
+    right: -13.888rem;
+    width: 36rem;
+    height: 36rem;
+    background-color: #1a2023;
+    border-radius: 50%;
+    z-index: 100;
+    transition: var(--transition-long-title);
+    transition-delay: 1.3s;
+}
+
+.about__wrapper {
+    position: relative;
+}
+
+.about .about-title {
+    position: relative;
+}
+
+.about .about-title__title {
+    display: flex;
+    justify-content: space-between;
+    height: 27.778rem;
+}
+
+.about .about-title__title_wrapper {
+    overflow: hidden;
+}
+
+.about .about-title__title_wrapper span {
+    font-family: 'Agharti Demi';
+    font-size: 29rem;
+    line-height: 1;
+    height: max-content;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: block;
+    transform: translateY(100%);
+}
+
+.about .about-title__img {
+    position: absolute;
+    top: 1.111rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25rem;
+    height: 27.778rem;
+    overflow: hidden;
+    z-index: 999999;
+}
+
+.about .about-title__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: -100%;
+}
+
+.about .about-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 3.333rem;
+    padding: 0 0.833rem;
+    width: 100%;
+}
+
+.about .about-text .about-description {
+    width: 40%;
+}
+
+.about .about-text .about-description__wrapper {
+    overflow: hidden;
+    display: block;
+}
+
+.about .about-text .about-description__text {
+    font-size: 1.7rem;
+    display: block;
+    transform: translateY(180%);
+    font-family: 'Aeonik TRIAL';
+}
+
+.about .about-text .about-project {
+    width: 9%;
+}
+
+.about .about-text .about-project h2 {
+    font-size: 1.2rem;
+    font-family: 'Aeonik TRIAL';
+    font-weight: 400;
+}
+
+.about .about-more-btn {
+    text-transform: uppercase;
+    margin-left: auto;
+    width: max-content;
+    padding: 0 0.556rem;
+}
+
+.about .about-more-btn a {
+    font-size: 2.1rem;
+    font-weight: 500;
+    font-family: 'Agharti Demi';
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.about .about-more-btn a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: var(--btn-bg);
+    transition: var(--transition-long);
+}
+
+.about .about-more-btn a:hover::after {
+    left: 120%;
+    transition-delay: 0;
+}
+
+.about .about-more-btn a:not(:hover)::after {
+    left: 0;
+    transition-delay: 0.6s;
+}
+
+.skill-section {
+    padding: 15rem 0 10rem;
+}
+
+.skill-section h2 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    width: max-content;
+    position: relative;
+}
+
+.skill-section .wrap {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap: 2.5rem;
+}
+
+.skill-section .left-wrap p {
+    font-size: 1.8rem;
+    font-family: 'Aeonik TRIAL';
+    line-height: 140%
+}
+
+.skill-section .right-wrap {
+    position: relative;
+}
+
+.skill-section .right-wrap .image-wrap {
+    overflow: hidden;
+    right: 0;
+    width: 27.778rem;
+    height: 27.778rem;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.skill-section .right-wrap .image-wrap img {
+    bottom: -100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.skill-section .right-wrap .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.778rem 0;
+}
+
+.skill-section .right-wrap h3 {
+    transition: opacity 0.8s cubic-bezier(0.71, 0.06, 0.06, 0.93);
+    overflow: hidden;
+    position: relative;
+    padding-right: 2.778rem;
+    padding-left: 2.778rem;
+    height: 5.556rem;
+    font-size: 3rem;
+    font-family: 'Agharti Demi';
+    display: flex;
+    align-items: center;
+}
+
+
+.skill-section {
+    .categories-wrapper {
+        position: relative;
+        z-index: 10;
+
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            // flex-direction: column;
+            gap: 2.222rem;
+
+            &-block {
+                .categories-block__text {
+                    transition: opacity 0.8s cubic-bezier(0.71, 0.06, 0.06, 0.93);
+                    position: relative;
+                    padding-right: 2.778rem;
+                    padding-left: 2.778rem;
+                    font-size: 3rem;
+                    font-family: 'Agharti Demi';
+                    pointer-events: none;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    line-height: normal;
+
+                    &_first-title {
+                        height: 100%;
+                        width: 100%;
+
+                        span {
+                            position: relative;
+                            bottom: 0;
+                            transition: 0.8s cubic-bezier(0.71, 0.06, 0.06, 0.93);
+                        }
+                    }
+
+
+                    div {
+                        display: inline-block;
+                    }
+                }
+
+            }
+
+            &:hover {
+                .categories-block {
+                    opacity: 0.5;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            &:has(.categories-block:hover) .categories-block:not(:hover) {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .images {
+        position: relative;
+        pointer-events: none;
+        z-index: 100;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        &-wrap {
+            height: 11.111rem;
+            width: 11.111rem;
+            position: absolute;
+            left: 0;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        img {
+            height: 11.111rem;
+            width: 100%;
+            object-fit: cover;
+            position: absolute;
+            bottom: -100%;
+            border-radius: 20px;
+        }
+    }
+
+    .categories-block__text_first-title span:nth-child(1),
+    .categories-block__text_second-title span:nth-child(1) {
+        transition-delay: 0.02s;
+    }
+
+    .categories-block__text_first-title span:nth-child(2),
+    .categories-block__text_second-title span:nth-child(2) {
+        transition-delay: 0.04s;
+    }
+
+    .categories-block__text_first-title span:nth-child(3),
+    .categories-block__text_second-title span:nth-child(3) {
+        transition-delay: 0.06s;
+    }
+
+    .categories-block__text_first-title span:nth-child(4),
+    .categories-block__text_second-title span:nth-child(4) {
+        transition-delay: 0.08s;
+    }
+
+    .categories-block__text_first-title span:nth-child(5),
+    .categories-block__text_second-title span:nth-child(5) {
+        transition-delay: 0.1s;
+    }
+
+    .categories-block__text_first-title span:nth-child(6),
+    .categories-block__text_second-title span:nth-child(6) {
+        transition-delay: 0.12s;
+    }
+
+    .categories-block__text_first-title span:nth-child(7),
+    .categories-block__text_second-title span:nth-child(7) {
+        transition-delay: 0.14s;
+    }
+
+    .categories-block__text_first-title span:nth-child(8),
+    .categories-block__text_second-title span:nth-child(8) {
+        transition-delay: 0.16s;
+    }
+
+    .categories-block__text_first-title span:nth-child(9),
+    .categories-block__text_second-title span:nth-child(9) {
+        transition-delay: 0.18s;
+    }
+
+    .categories-block__text_first-title span:nth-child(10),
+    .categories-block__text_second-title span:nth-child(10) {
+        transition-delay: 0.2s;
+    }
+
+    .categories-block__text_first-title span:nth-child(11),
+    .categories-block__text_second-title span:nth-child(11) {
+        transition-delay: 0.22s;
+    }
+
+    .categories-block__text_first-title span:nth-child(12),
+    .categories-block__text_second-title span:nth-child(12) {
+        transition-delay: 0.24s;
+    }
+
+    .categories-block__text_first-title span:nth-child(13),
+    .categories-block__text_second-title span:nth-child(13) {
+        transition-delay: 0.26s;
+    }
+
+    .categories-block__text_first-title span:nth-child(14),
+    .categories-block__text_second-title span:nth-child(14) {
+        transition-delay: 0.28s;
+    }
+
+    .categories-block__text_first-title span:nth-child(15),
+    .categories-block__text_second-title span:nth-child(15) {
+        transition-delay: 0.3s;
+    }
+
+    .categories-block__text_first-title span:nth-child(16),
+    .categories-block__text_second-title span:nth-child(16) {
+        transition-delay: 0.32s;
+    }
+
+    .categories-block__text_first-title span:nth-child(17),
+    .categories-block__text_second-title span:nth-child(17) {
+        transition-delay: 0.34s;
+    }
+
+    .categories-block__text_first-title span:nth-child(18),
+    .categories-block__text_second-title span:nth-child(18) {
+        transition-delay: 0.36s;
+    }
+}
+
+#mouseCanvas {
+    position: fixed;
+    pointer-events: none;
+    z-index: 99999999;
+}
+
+.project-section h2 {
+    font-size: 5rem;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+}
+
+.project-section .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem 8rem;
+}
+
+.project-section .project-list .project-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.project-section .project-list .project-info p.name {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-section .project-list .project-info p.project-description {
+    font-size: 1.2rem;
+    font-family: 'Aeonik TRIAL';
+    font-weight: 600;
+}
+
+.skill-section h2 span {
+    position: absolute;
+    top: -10rem;
+    right: -8rem;
+    animation-name: roundmove;
+}
+
+.skill-section h2 span::before,
+.skill-section h2 span::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 5rem;
+    width: 5rem;
+    background: #1a2023;
+    border-radius: 50%;
+}
+
+.skill-section h2 span::after {
+    height: 2rem;
+    width: 2rem;
+    left: -6.7rem;
+    top: 6.6rem;
+}
+
+.project-section {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -5rem;
+    background: #f8f8f8;
+    padding-bottom: 3rem;
+    border-radius: 0 0 5rem 5rem;
+}
+
+footer {
+    padding: 7rem 0 1.5rem;
+    background-color: #17242a;
+}
+
+footer .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .wrap p,
+footer .wrap a {
+    font-family: 'Aeonik TRIAL';
+    color: #fff;
+    font-size: 1rem;
+}
+
+footer .wrap .date div {
+    font-family: 'Aeonik TRIAL';
+    // text-align: center;
+}
+
+footer .wrap .date div:first-child {
+    padding-bottom: 0.4rem;
+}
+
+footer .wrap .date {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.7rem;
+}
+
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 100000;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.loader .counter {
+    display: flex;
+    font-family: 'Agharti Demi';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loader .counter-number{
+    text-align: right;
+}
+.loader .counter-number,
+.loader .counter-number-second {
+    overflow: hidden;
+    height: 65px;
+}
+
+.loader .counter span {
+    font-size: 60px;
+    text-transform: uppercase;
+    display: block;
+    transform: translateY(110%);
+    width: max-content;
+    display: block;
+}
+
+.loader .start-btn {
+    font-family: 'Agharti Demi';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 42px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.loader .start-btn:hover::after {
+    left: 120%;
+    transition-delay: 0;
+}
+
+.loader .start-btn:not(:hover)::after {
+    left: 0;
+    transition-delay: 0.6s;
+}
+
+.loader .loading {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.loader .loading span {
+    font-family: 'Agharti Demi';
+    font-size: 50px;
+    text-transform: uppercase;
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+@import 'footer';
+@import 'responsive';
