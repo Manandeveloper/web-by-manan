@@ -47,7 +47,6 @@ const MouseEffect = () => {
       };
 
       const updateCanvas = (time) => {
-        const deltaTime = time - prevTime;
         prevTime = time;
 
         ctx.clearRect(0, 0, canvas.width, canvas.height);
