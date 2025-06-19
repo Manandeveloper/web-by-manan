@@ -4,13 +4,13 @@ const Header = () => {
         <header>
         <div className="wrap">
             <div className="logo">
-                <a href="">
+                <Link to="">
                     <span>WEB</span>
                     <span>BY</span>
                     <span>MANAN</span>
-                </a>
+                </Link>
             </div>
-            <div className="header-btn">
+            {/* <div className="header-btn">
                 <div className="btn-wrap">
                     <div className="button">
                         <span className="line"></span>
@@ -21,7 +21,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
         <div className="menu">
             <div className="nav">

@@ -104,14 +104,12 @@ const About = () => {
                         <div className="about-description">
                             <span className="about-description__wrapper">
                                 <span className="about-description__text">
-                                    My name is Max, and I'm a front-end developer, who creates
-                                    websites with a special focus on animations and user interaction.
+                                    Hey, I’m Manan — a front-end developer who loves creating visually striking websites with a strong focus on animation and interaction.
                                 </span>
                             </span>
                             <span className="about-description__wrapper">
                                 <span className="about-description__text">
-                                    I'm ready to bring your ideas to life and add a touch of
-                                    originality to the online space.
+                                    Let’s make your ideas stand out in the digital world.
                                 </span>
                             </span>
                         </div>

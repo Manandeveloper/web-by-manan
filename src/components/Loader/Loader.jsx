@@ -1,8 +1,7 @@
 import gsap from 'gsap';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const Loader = () => {
-  const [cubePosition, setCubePosition] = useState(-10);
 
   useEffect(() => {
     gsap.to('.start-btn', {
@@ -90,7 +89,6 @@ const Loader = () => {
     // ====================== SECOND NUMBER ====================== //
     gsap.to('.counter-number-second span:nth-child(1)', {
       duration: 0.8,
-      delay: 0.1,
       y: 0,
       delay: 2.1,
       ease: 'power4.inOut',
@@ -153,7 +151,6 @@ const Loader = () => {
 
   const handleStartClick = () => {
     // Изменяем позицию куба
-    setCubePosition(0); // Позиция куба теперь будет 0
 
     gsap.to('.loading span', {
       duration: 0.8,

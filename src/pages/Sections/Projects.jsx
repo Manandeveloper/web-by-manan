@@ -19,7 +19,7 @@ const Project = () => {
                                     {project.title}    
                                 </NavLink>
                             </p>
-                            <p className="project-description">Website For A Headphone Company</p>
+                            <p className="project-description"> {project.shortdescription} </p>
                         </div>
                     </div>
                     ))}

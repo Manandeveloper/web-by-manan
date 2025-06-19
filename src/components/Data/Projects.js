@@ -1,27 +1,66 @@
 
-import image0 from '../../assets/images/0.jpg';
-import image1 from '../../assets/images/1.jpg';
-import image2 from '../../assets/images/2.jpg';
+import VitalNeuroImg from '../../assets/images/Vital Neuro.png';
+import SMBImage from '../../assets/images/SMB.jpg';
+import Take2Image from '../../assets/images/take2.jpg';
+import ModelInvestingImage from '../../assets/images/Mondel Investing.png';
+import OfeliaImage from '../../assets/images/ofelia.jpg';
+import BeneBagsImage from '../../assets/images/BeneBegs.png';
+import EdisonImage from '../../assets/images/edisun.jpg';
 const projects = [
    {
         id: 'vitalneuro',
         title: 'Vital Neuro',
-        mainImage: image0,
-        description: 'A description of Project One.',
+        mainImage: VitalNeuroImg,
+        shortdescription : 'Website For A Headphone Company',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
         skills: ['React', 'GSAP', 'SCSS'],
    },
    {
         id: 'smb',
         title: 'Start My Business',
-        mainImage: image1,
-        description: 'A description of Project One.',
+        mainImage: SMBImage,
+        shortdescription : 'Helps You To Start Your Own Business',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
         skills: ['React', 'GSAP', 'SCSS'],
    },
    {
-        id: 'project-one',
-        title: 'Project One',
-        mainImage: image2,
-        description: 'A description of Project One.',
+        id: 'take2',
+        title: 'Take2',
+        mainImage: Take2Image,
+        shortdescription : 'Skincare Product Website',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
+        skills: ['React', 'GSAP', 'SCSS'],
+   },
+   {
+        id: 'modelinvesting',
+        title: 'Model Investing',
+        mainImage: ModelInvestingImage,
+        shortdescription : '',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
+        skills: ['React', 'GSAP', 'SCSS'],
+   },
+   {
+        id: 'ofelia',
+        title: 'Ofelia',
+        mainImage: OfeliaImage,
+        shortdescription : '',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
+        skills: ['React', 'GSAP', 'SCSS'],
+   },
+   {
+        id: 'benebags',
+        title: 'Bene Bags',
+        mainImage: BeneBagsImage,
+        shortdescription : '',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
+        skills: ['React', 'GSAP', 'SCSS'],
+   },
+   {
+        id: 'edisun',
+        title: 'Edisun Renewables',
+        mainImage: EdisonImage,
+        shortdescription : '',
+        description: 'A description of Project One.A description of Project One.A description of Project One.A description of Project One.',
         skills: ['React', 'GSAP', 'SCSS'],
    },
 ];

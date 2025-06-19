@@ -29,7 +29,6 @@ const MouseEffect = () => {
       const canvas = canvasRef.current;
       const ctx = canvas.getContext('2d');
       let animationFrameId;
-      let prevTime = 0;
 
       const handleMouseMove = (e) => {
         updateMousePosition(e.clientX, e.clientY);
@@ -46,8 +45,9 @@ const MouseEffect = () => {
         updateCanvas();
       };
 
-      const updateCanvas = (time) => {
-        prevTime = time;
+      const updateCanvas = () => {
+        
+        // prevTime = time;
 
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 

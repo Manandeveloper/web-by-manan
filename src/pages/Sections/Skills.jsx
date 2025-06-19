@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import {useRef}  from "react";
 import gsap from "gsap";
 import HtmlImg from '../../assets/images/html.png'
 import JsImg from '../../assets/images/js.png'
@@ -9,6 +9,7 @@ import WordpressImg from '../../assets/images/wordpress.png'
 import GithubImg from '../../assets/images/github.png'
 import JqueryImg from '../../assets/images/jquery.png'
 import ShopifyImg from '../../assets/images/shopify.png'
+import { Link } from 'react-router-dom'
 // const skillsList = [
 //     "html",
 //     "js",
@@ -124,7 +125,8 @@ const Skills = () => {
                         <div className="categories-wrapper">
                             <div className="categories">
                                 {skillsList.map((skill) => (
-                                    <a
+                                    <Link
+                                        to=""
                                         key={skill.name}
                                         className="categories-block"
                                         data-label={skill.name}
@@ -138,7 +140,7 @@ const Skills = () => {
                                                 ))}
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 ))}
 
                             </div>

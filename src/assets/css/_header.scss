@@ -9,8 +9,8 @@ header .wrap {
 }
 
 header .wrap .header-btn .button {
-    height:2.9444rem;
-    width:2.9444rem;
+    height: 2.9444rem;
+    width: 2.9444rem;
     background-color: #17242a;
     border-radius: 50%;
     position: relative;
@@ -64,11 +64,13 @@ header .wrap .logo a span {
     position: relative;
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 header .logo a {
     font-size: 2rem;
 }
-header .wrap .logo a:hover span {
-    margin-left:0.333rem;
+
+header .wrap .logo a span {
+    margin-left: 0.333rem;
 }
 
 header .wrap .logo a span:first-child:after,
@@ -109,7 +111,6 @@ header .menu {
 }
 
 header .menu.menu-active {
-    -webkit-transform: translateY(0)!important;
-    transform: translateY(0)!important;
+    -webkit-transform: translateY(0) !important;
+    transform: translateY(0) !important;
 }
-

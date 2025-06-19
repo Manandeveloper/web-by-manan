@@ -302,6 +302,7 @@ img {
 .banner h1 {
     text-transform: uppercase;
     font-size: 16rem;
+    padding: 0 0.8333rem;
 }
 
 .about {
@@ -813,9 +814,12 @@ footer .wrap .date {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.loader .counter-number{
+
+.loader .counter-number {
     text-align: right;
+    margin-right: 2px;
 }
+
 .loader .counter-number,
 .loader .counter-number-second {
     overflow: hidden;
@@ -827,7 +831,7 @@ footer .wrap .date {
     text-transform: uppercase;
     display: block;
     transform: translateY(110%);
-    width: max-content;
+    width: 100%;
     display: block;
 }
 
@@ -867,5 +871,117 @@ footer .wrap .date {
     display: inline-block;
 }
 
+.project-section .project-list .project-image {
+    height: 22.3rem;
+}
+
+.project-section .project-list .project-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.project-template .top-wrap,
+.project-template  .case-description .wrap{
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-template h2 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-stretch: initial;
+}
+
+.project-template .top-wrap .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 30rem;
+}
+
+.project-template .top-wrap .skill-list span {
+    font-size: 1.2rem;
+    font-family: 'Aeonik TRIAL';
+    border: 1px solid rgba(23, 36, 42, .329);
+    border-radius: 20px;
+    padding: 0.4rem 1.4rem;
+    color: #2C3333;
+}
+.project-template  .case-description .wrap{
+    padding-bottom: 0;
+}
+.project-template .case-description .wrap .desc {
+    width: 44rem;
+}
+
+.project-template .case-description .wrap .desc p {
+    font-family: "Aeonik TRIAL";
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+.project-template  .case-description {
+    border-radius: 0 0 5rem 5rem;
+    background: #f8f8f8;
+    margin-bottom: -5rem;
+    position: relative;
+    z-index: 1;
+}
+.project-template .case-description h2 {
+    font-size: 6rem;
+}
+
+.project-template .case-description .live-site {
+    height: 25rem;
+    position: relative;
+}
+
+.project-template .case-description .small-circle {
+    position: absolute;
+    background-color: #1a2023;
+    border-radius: 50%;
+    left: 21rem;
+    top: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.project-template .case-description .big-circle {
+    position: absolute;
+    background-color: #1a2023;
+    border-radius: 50%;
+    left: 38rem;
+    top: 7rem;
+    width: 11rem;
+    height: 11rem;
+}
+
+.project-template .case-description .link-circle {
+    position: absolute;
+    background-color: #17242a;
+    border-radius: 50%;
+    right: 2rem;
+    top: 2rem;
+    width: 11rem;
+    height: 11rem;
+
+}
+
+.project-template .case-description .link-circle a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Aeonik TRIAL";
+    font-size: 1.4rem;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    height: 100%;
+}
 @import 'footer';
 @import 'responsive';
