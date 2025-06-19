@@ -114,7 +114,7 @@ const About = () => {
                             </span>
                         </div>
                         <div className="about-project">
-                            <h2>Let's make your project special!</h2>
+                            <h2>Let's make your project special! .</h2>
                         </div>
                     </div>
                 </div>
