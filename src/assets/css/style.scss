@@ -712,12 +712,17 @@ img {
     justify-content: space-between;
     padding-top: 1rem;
     align-items: center;
+    gap: 1rem;
 }
 
 .project-section .project-list .project-info p.name {
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.project-section .project-list .project-info p.name a {
+    width: max-content;
 }
 
 .project-section .project-list .project-info p.project-description {
@@ -801,7 +806,7 @@ footer .wrap .date {
     left: 0;
     width: 100%;
     height: 100dvh;
-    z-index: 100000;
+    z-index: 9999999;
     background-color: #fff;
     overflow: hidden;
 }
@@ -845,6 +850,7 @@ footer .wrap .date {
     font-size: 42px;
     text-transform: uppercase;
     overflow: hidden;
+    border-bottom: 2px solid;
 }
 
 .loader .start-btn:hover::after {
@@ -883,7 +889,7 @@ footer .wrap .date {
 }
 
 .project-template .top-wrap,
-.project-template  .case-description .wrap{
+.project-template .case-description .wrap {
     padding: 5rem 0;
     display: flex;
     align-items: center;
@@ -912,9 +918,11 @@ footer .wrap .date {
     padding: 0.4rem 1.4rem;
     color: #2C3333;
 }
-.project-template  .case-description .wrap{
+
+.project-template .case-description .wrap {
     padding-bottom: 0;
 }
+
 .project-template .case-description .wrap .desc {
     width: 44rem;
 }
@@ -925,13 +933,14 @@ footer .wrap .date {
     line-height: 150%;
 }
 
-.project-template  .case-description {
+.project-template .case-description {
     border-radius: 0 0 5rem 5rem;
     background: #f8f8f8;
     margin-bottom: -5rem;
     position: relative;
     z-index: 1;
 }
+
 .project-template .case-description h2 {
     font-size: 6rem;
 }
@@ -983,5 +992,6 @@ footer .wrap .date {
     text-transform: uppercase;
     height: 100%;
 }
+
 @import 'footer';
 @import 'responsive';

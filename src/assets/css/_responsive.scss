@@ -1,13 +1,227 @@
-@media only screen and (min-width:1500px) and (max-width:1699px){}
+// @media only screen and (min-width:1500px) and (max-width:1699px) {}
 
-@media only screen and (min-width:1280px) and (max-width:1499px){}
+// @media only screen and (min-width:1280px) and (max-width:1499px) {}
 
-@media only screen and (min-width:1121px) and (max-width:1279px) {}
+// @media only screen and (min-width:1121px) and (max-width:1279px) {
+//     .container {
+//         width: 75rem;
+//     }
 
-@media (max-width: 1120px){}
+//     .banner h1 {
+//         font-size: 13rem;
+//     }
 
-@media (max-width: 991px){}
+//     .about .about-title__title_wrapper span {
+//         font-size: 28rem;
+//     }
 
-@media (max-width: 767px){}
+//     .about .about-title__title {
+//         height: 25.778rem;
+//     }
 
-@media (max-width: 581px){}
+//     .about .about-title__img {
+//         width: 21rem;
+//         height: 25.778rem;
+//     }
+
+//     .skill-section {
+//         padding: 11rem 0 8rem;
+//     }
+
+//     .project-section .project-list {
+//         grid-gap: 2rem 3rem;
+//     }
+
+//     .project-section .project-list .project-info p.name {
+//         font-size: 2.5rem;
+//     }
+
+//     .skill-section h2 {
+//         font-size: 7rem;
+//     }
+
+//     .skill-section .left-wrap p {
+//         font-size: 1.7rem;
+//     }
+
+//     .project-section h2 {
+//         font-size: 4.2rem;
+//         padding-bottom: 1.7rem;
+//     }
+
+//     .project-template .top-wrap,
+//     .project-template .case-description .wrap {
+//         padding: 2rem 0 3rem;
+//     }
+
+//     .project-template h2 {
+//         font-size: 5rem;
+//     }
+
+//     .project-template .top-wrap .skill-list {
+//         justify-content: right;
+//     }
+// }
+
+// @media (max-width: 1120px) {
+//     .container {
+//         width: 100%;
+//     }
+
+//     .banner h1 {
+//         font-size: 11.1rem;
+//     }
+
+//     .about {
+//         padding-top: 3.111rem;
+//     }
+
+//     .about::after {
+//         top: -17rem;
+//         right: -12rem;
+//         width: 23rem;
+//         height: 23rem;
+//     }
+
+//     .about .about-title__title_wrapper span {
+//         font-size: 25rem;
+//     }
+
+//     .about .about-title__title {
+//         height: 25.778rem;
+//     }
+
+//     .about .about-title__img {
+//         width: 20rem;
+//         height: 25.778rem;
+//     }
+
+//     .about .about-text .about-description__text {
+//         font-size: 1.5rem;
+//     }
+
+//     .about .about-text .about-project {
+//         width: 15%;
+//     }
+
+//     .about .about-text .about-description {
+//         width: 42%;
+//     }
+
+//     .skill-section {
+//         padding: 11rem 0 8rem;
+//     }
+
+//     .project-section .project-list {
+//         grid-gap: 2rem 3rem;
+//     }
+
+//     .project-section .project-list .project-info p.name {
+//         font-size: 2.5rem;
+//     }
+
+//     .skill-section h2 {
+//         font-size: 7rem;
+//     }
+
+//     .skill-section .left-wrap p {
+//         font-size: 1.4rem;
+//     }
+
+//     .project-section h2 {
+//         font-size: 4.2rem;
+//         padding-bottom: 1.7rem;
+//     }
+
+//     .project-template .top-wrap,
+//     .project-template .case-description .wrap {
+//         padding: 2rem 0 3rem;
+//     }
+
+//     .project-template h2 {
+//         font-size: 5rem;
+//     }
+
+//     .project-template .top-wrap .skill-list {
+//         justify-content: right;
+//     }
+
+//     .project-section .project-list .project-info p.project-description {
+//         font-size: 1rem;
+//     }
+
+//     .project-section .project-list .project-image {
+//         height: 17.8rem;
+//     }
+// }
+
+// @media (max-width: 991px) {
+//     .loader .counter span {
+//         font-size: 50px;
+//     }
+
+//     .loader .start-btn {
+//         top: 57%;
+//         font-size: 33px;
+//         border-bottom: 2px solid;
+//     }
+
+//     .loader .loading span {
+//         font-size: 35px;
+//         letter-spacing: 1px;
+//     }
+
+//     .banner {
+//         height: 85vh;
+//     }
+
+//     .banner h1 {
+//         font-size: 9.1rem;
+//         letter-spacing: 1px;
+//     }
+
+//     .hero-white {
+//         height: 100dvh;
+//         top: 70%;
+//     }
+
+//     .about .about-title__title_wrapper span {
+//         font-size: 20rem;
+//     }
+
+//     .about {
+//         padding-top: 5rem;
+//     }
+
+//     .about .about-title__img {
+//         top: -2.889rem;
+//     }
+
+//     .about .about-title__title {
+//         height: 23.778rem;
+//     }
+
+//     .about .about-text {
+//         margin-top: 1.333rem;
+//     }
+
+//     .about .about-text .about-description {
+//         width: 58%;
+//     }
+
+//     .about .about-text .about-project {
+//         width: 20%;
+//     }
+
+//     .skill-section {
+//         padding: 7rem 0 8rem;
+//     }
+
+//     .skill-section h2 span {
+//         top: -8rem;
+//     }
+// }
+
+// @media (max-width: 767px) {}
+
+// @media (max-width: 581px) {}
