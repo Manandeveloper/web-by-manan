@@ -1218,7 +1218,7 @@ footer .wrap .date {
   .loader .counter-number,
   .loader .counter-number-second {
     overflow: hidden;
-    height: 5rem;
+    height: 6rem;
   }
   .loader .start-btn {
     font-size: 3.2rem;
