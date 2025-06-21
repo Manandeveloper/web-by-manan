@@ -77,6 +77,24 @@
     footer .wrap a {
         font-size: 1.4rem;
     }
+
+    header {
+        padding: 3rem 2rem;
+    }
+
+    header .wrap .logo a span {
+        margin-left: 0.7rem;
+    }
+
+    header .logo a {
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+
+    .project-template h2 {
+        font-size: 6rem;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -218,6 +236,78 @@
     footer .wrap a {
         font-size: 1rem;
     }
+
+    header {
+        padding: 1rem;
+    }
+
+    header .logo a {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+
+    header .wrap .logo a span {
+        margin-left: 0.3rem;
+    }
+
+    .project-template h2 {
+        font-size: 3rem;
+    }
+
+    .project-template .top-wrap .skill-list {
+        width: 23rem;
+    }
+
+    .project-template .top-wrap .skill-list span {
+        font-size: 1rem;
+    }
+
+    .project-template .top-wrap,
+    .project-template .case-description .wrap {
+        padding: 4rem 0 3rem;
+    }
+
+    .project-template .case-description h2 {
+        font-size: 3rem;
+    }
+
+    .project-template .case-description .wrap .desc p {
+        font-size: 1.1rem;
+    }
+
+    .project-template .case-description .wrap .desc {
+        width: 33rem;
+    }
+
+    .project-template .case-description .small-circle {
+        left: 10rem;
+        top: 0rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .project-template .case-description .big-circle {
+        left: 16rem;
+        top: 5rem;
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .project-template .case-description .link-circle a {
+        font-size: 1rem;
+    }
+
+    .project-template .case-description .link-circle {
+        right: 6rem;
+        top: 0rem;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .project-template .case-description .live-site {
+        height: 14rem;
+    }
+
 }
 
 
@@ -255,12 +345,12 @@
 
     .banner h1 {
         font-size: 11.6rem;
-        padding: 3rem 2rem 0;
+        padding: 20% 2rem 0;
         letter-spacing: 2px;
     }
 
     .hero-white {
-        top: 61%;
+        top: 75%;
     }
 
     .about::after {
@@ -333,8 +423,29 @@
     }
 
     .about .about-title__img {
-        width: 17.3rem;
-        height: 22.778rem;
-        top: -1rem;
+        width: 16.3rem;
+        height: 20.578rem;
+        top: -0.4rem;
+    }
+
+    .project-template h2 {
+        font-size: 5rem;
+    }
+
+    .project-template .top-wrap .skill-list span {
+        font-size: 2rem;
+    }
+
+    .project-template .case-description h2 {
+        font-size: 4rem;
+    }
+
+    .project-template .case-description .wrap .desc p {
+        font-size: 1.7rem;
+    }
+
+    footer .wrap p,
+    footer .wrap a {
+        font-size: 1.5rem;
     }
 }

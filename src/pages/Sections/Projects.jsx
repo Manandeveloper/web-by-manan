@@ -11,7 +11,9 @@ const Project = () => {
                     {projects.map((project) => (
                     <div className="single-project">
                         <div className="project-image">
-                            <img src={project.mainImage} alt={project.title} />
+                            <NavLink key={project.id} to={`/project/${project.id}`} className="project-card">   
+                                <img src={project.mainImage} alt={project.title} />
+                            </NavLink>
                         </div>
                         <div className="project-info">
                             <p className="name">
