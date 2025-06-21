@@ -63,165 +63,278 @@
 //     }
 // }
 
-// @media (max-width: 1120px) {
-//     .container {
-//         width: 100%;
-//     }
+@media (max-width: 1120px) {
+    .loader .start-btn {
+        top: 55%;
+    }
 
-//     .banner h1 {
-//         font-size: 11.1rem;
-//     }
 
-//     .about {
-//         padding-top: 3.111rem;
-//     }
+    .project-section .project-list {
+        grid-gap: 3rem;
+    }
 
-//     .about::after {
-//         top: -17rem;
-//         right: -12rem;
-//         width: 23rem;
-//         height: 23rem;
-//     }
+    footer .wrap p,
+    footer .wrap a {
+        font-size: 1.4rem;
+    }
+}
 
-//     .about .about-title__title_wrapper span {
-//         font-size: 25rem;
-//     }
+@media (max-width: 991px) {
+    html {
+        font-size: 1.8vw;
+    }
 
-//     .about .about-title__title {
-//         height: 25.778rem;
-//     }
+    .container {
+        width: 100%;
+    }
 
-//     .about .about-title__img {
-//         width: 20rem;
-//         height: 25.778rem;
-//     }
+    .loader .counter span {
+        font-size: 3.3rem;
+    }
 
-//     .about .about-text .about-description__text {
-//         font-size: 1.5rem;
-//     }
+    .loader .start-btn {
+        top: 58%;
+        font-size: 1.9rem;
+        letter-spacing: 0.6px;
+    }
 
-//     .about .about-text .about-project {
-//         width: 15%;
-//     }
+    .banner h1 {
+        font-size: 10rem;
+        padding-top: 2rem;
+    }
 
-//     .about .about-text .about-description {
-//         width: 42%;
-//     }
+    .about::after {
+        top: -15rem;
+        right: -10rem;
+        width: 20rem;
+        height: 20rem;
+    }
 
-//     .skill-section {
-//         padding: 11rem 0 8rem;
-//     }
+    .hero-white {
+        height: 80dvh;
+        top: 70%;
+    }
 
-//     .project-section .project-list {
-//         grid-gap: 2rem 3rem;
-//     }
+    .about {
+        padding-top: 3.111rem;
+    }
 
-//     .project-section .project-list .project-info p.name {
-//         font-size: 2.5rem;
-//     }
+    .about .about-title__img {
+        width: 14.3rem;
+        height: 18.778rem;
+        top: 0;
+    }
 
-//     .skill-section h2 {
-//         font-size: 7rem;
-//     }
+    .about .about-title__title_wrapper span {
+        font-size: 20.1rem;
+    }
 
-//     .skill-section .left-wrap p {
-//         font-size: 1.4rem;
-//     }
+    about .about-text .about-description {
+        width: 60%;
+    }
 
-//     .project-section h2 {
-//         font-size: 4.2rem;
-//         padding-bottom: 1.7rem;
-//     }
+    .about .about-text .about-description__text {
+        font-size: 1.3rem;
+    }
 
-//     .project-template .top-wrap,
-//     .project-template .case-description .wrap {
-//         padding: 2rem 0 3rem;
-//     }
+    .about .about-text .about-project {
+        width: 10rem;
+    }
 
-//     .project-template h2 {
-//         font-size: 5rem;
-//     }
+    .about .about-title__title {
+        height: 20.778rem;
+    }
 
-//     .project-template .top-wrap .skill-list {
-//         justify-content: right;
-//     }
+    .about .about-text .about-description {
+        width: 50%;
+    }
 
-//     .project-section .project-list .project-info p.project-description {
-//         font-size: 1rem;
-//     }
+    .skill-section {
+        padding: 10rem 0 6rem;
+    }
 
-//     .project-section .project-list .project-image {
-//         height: 17.8rem;
-//     }
-// }
+    .skill-section h2 span {
+        top: -9rem;
+        right: -7.7rem;
+    }
 
-// @media (max-width: 991px) {
-//     .loader .counter span {
-//         font-size: 50px;
-//     }
+    .skill-section h2 span::before,
+    .skill-section h2 span::after {
+        right: 1rem;
+        top: 1rem;
+        height: 4.3rem;
+        width: 4.3rem;
+    }
 
-//     .loader .start-btn {
-//         top: 57%;
-//         font-size: 33px;
-//         border-bottom: 2px solid;
-//     }
+    .skill-section h2 span::after {
+        height: 1.7rem;
+        width: 1.7rem;
+        left: -7.4rem;
+        top: 7.5rem;
+    }
 
-//     .loader .loading span {
-//         font-size: 35px;
-//         letter-spacing: 1px;
-//     }
+    .skill-section .left-wrap p {
+        font-size: 1.3rem;
+    }
 
-//     .banner {
-//         height: 85vh;
-//     }
+    .skill-section .categories-wrapper .categories {
+        gap: 1rem 0.4rem;
+    }
 
-//     .banner h1 {
-//         font-size: 9.1rem;
-//         letter-spacing: 1px;
-//     }
+    .skill-section .categories-wrapper .categories-block .categories-block__text {
+        letter-spacing: 1px;
+        padding-right: 1.978rem;
+        padding-left: 1.978rem;
+        font-size: 2.4rem;
+    }
 
-//     .hero-white {
-//         height: 100dvh;
-//         top: 70%;
-//     }
+    .project-section .project-list .project-image {
+        height: 12.5rem;
+    }
 
-//     .about .about-title__title_wrapper span {
-//         font-size: 20rem;
-//     }
+    .project-section .project-list .project-info p.name {
+        font-size: 2rem;
+    }
 
-//     .about {
-//         padding-top: 5rem;
-//     }
+    .project-section .project-list .project-info p.name a {
+        width: auto;
+    }
 
-//     .about .about-title__img {
-//         top: -2.889rem;
-//     }
+    .project-section .project-list {
+        grid-gap: 3rem 2rem;
+    }
 
-//     .about .about-title__title {
-//         height: 23.778rem;
-//     }
+    .project-section .project-list .project-image {
+        height: 12.5rem;
+    }
 
-//     .about .about-text {
-//         margin-top: 1.333rem;
-//     }
+    .project-section .project-list .project-info {
+        gap: 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-//     .about .about-text .about-description {
-//         width: 58%;
-//     }
+    footer .wrap p,
+    footer .wrap a {
+        font-size: 1rem;
+    }
+}
 
-//     .about .about-text .about-project {
-//         width: 20%;
-//     }
 
-//     .skill-section {
-//         padding: 7rem 0 8rem;
-//     }
+@media (max-width: 767px) {
+    .loader .loading span {
+        font-size: 4.9rem;
+    }
 
-//     .skill-section h2 span {
-//         top: -8rem;
-//     }
-// }
+    .loader .counter span {
+        font-size: 5rem;
+    }
 
-// @media (max-width: 767px) {}
+    .loader .counter-number,
+    .loader .counter-number-second {
+        overflow: hidden;
+        height: 5rem;
+    }
 
-// @media (max-width: 581px) {}
+    .loader .start-btn {
+        font-size: 3.2rem;
+    }
+
+    header {
+        padding: 3rem 2rem;
+    }
+
+    header .wrap .logo a span {
+        margin-left: 0.7rem;
+    }
+
+    header .logo a {
+        font-size: 4rem;
+        letter-spacing: 1px;
+    }
+
+    .banner h1 {
+        font-size: 11.6rem;
+        padding: 3rem 2rem 0;
+        letter-spacing: 2px;
+    }
+
+    .hero-white {
+        top: 61%;
+    }
+
+    .about::after {
+        top: -33rem;
+        right: -15rem;
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .about .about-text {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .about .about-text .about-description {
+        width: 100%;
+    }
+
+    .about .about-text .about-description__text {
+        font-size: 2.4rem;
+        margin-bottom: 2.1rem;
+    }
+
+    .about .about-text .about-project {
+        width: 20rem;
+        margin-left: auto;
+    }
+
+    .about .about-text .about-project h2 {
+        font-size: 2.4rem;
+    }
+
+    .skill-section {
+        padding: 16rem 0 12rem;
+    }
+
+    .skill-section .wrap {
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+    }
+
+    .skill-section .left-wrap p {
+        font-size: 2.4rem;
+        width: 51rem;
+    }
+
+    .skill-section .categories-wrapper .categories {
+        gap: 2.5rem 1.2rem;
+    }
+
+    .skill-section .categories-wrapper .categories-block .categories-block__text {
+        font-size: 4rem;
+    }
+
+    .project-section .project-list {
+        grid-template-columns: 1fr;
+        grid-gap: 5rem;
+    }
+
+    .project-section .project-list .project-image {
+        height: 25.5rem;
+    }
+
+    .project-section .project-list .project-info p.name {
+        font-size: 4rem;
+    }
+
+    .project-section .project-list .project-info p.project-description {
+        font-size: 2.4rem;
+    }
+
+    .about .about-title__img {
+        width: 17.3rem;
+        height: 22.778rem;
+        top: -1rem;
+    }
+}

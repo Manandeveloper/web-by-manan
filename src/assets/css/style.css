@@ -27,10 +27,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   margin: 0 auto;
-}
-
-html {
-  font-size: clamp(14px, 1vw, 18px);
+  font-size: 0.9375vw;
 }
 
 html body {
@@ -383,7 +380,7 @@ header .menu.menu-active {
 
 .container {
   width: 96.111rem;
-  padding: 0 0.555rem;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -551,6 +548,7 @@ header .menu.menu-active {
   position: relative;
   overflow: hidden;
   display: block;
+  display: none;
 }
 
 .about .about-more-btn a::after {
@@ -920,11 +918,11 @@ footer .wrap .date {
 .loader .counter-number,
 .loader .counter-number-second {
   overflow: hidden;
-  height: 65px;
+  height: 3.6rem;
 }
 
 .loader .counter span {
-  font-size: 60px;
+  font-size: 3.6rem;
   text-transform: uppercase;
   display: block;
   transform: translateY(110%);
@@ -939,7 +937,7 @@ footer .wrap .date {
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
-  font-size: 42px;
+  font-size: 2.3rem;
   text-transform: uppercase;
   overflow: hidden;
   border-bottom: 2px solid;
@@ -957,13 +955,13 @@ footer .wrap .date {
 
 .loader .loading {
   position: absolute;
-  bottom: 10px;
-  left: 20px;
+  bottom: 5px;
+  left: 1.2rem;
 }
 
 .loader .loading span {
   font-family: "Agharti Demi";
-  font-size: 50px;
+  font-size: 2.9rem;
   text-transform: uppercase;
   transform: translateY(100%);
   display: inline-block;
@@ -1084,4 +1082,222 @@ footer .wrap .date {
   letter-spacing: 1.8px;
   text-transform: uppercase;
   height: 100%;
+}
+
+@media (max-width: 1120px) {
+  .loader .start-btn {
+    top: 55%;
+  }
+  .project-section .project-list {
+    grid-gap: 3rem;
+  }
+  footer .wrap p,
+  footer .wrap a {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 1.8vw;
+  }
+  .container {
+    width: 100%;
+  }
+  .loader .counter span {
+    font-size: 3.3rem;
+  }
+  .loader .start-btn {
+    top: 58%;
+    font-size: 1.9rem;
+    letter-spacing: 0.6px;
+  }
+  .banner h1 {
+    font-size: 10rem;
+    padding-top: 2rem;
+  }
+  .about::after {
+    top: -15rem;
+    right: -10rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  .hero-white {
+    height: 80dvh;
+    top: 70%;
+  }
+  .about {
+    padding-top: 3.111rem;
+  }
+  .about .about-title__img {
+    width: 14.3rem;
+    height: 18.778rem;
+    top: 0;
+  }
+  .about .about-title__title_wrapper span {
+    font-size: 20.1rem;
+  }
+  about .about-text .about-description {
+    width: 60%;
+  }
+  .about .about-text .about-description__text {
+    font-size: 1.3rem;
+  }
+  .about .about-text .about-project {
+    width: 10rem;
+  }
+  .about .about-title__title {
+    height: 20.778rem;
+  }
+  .about .about-text .about-description {
+    width: 50%;
+  }
+  .skill-section {
+    padding: 10rem 0 6rem;
+  }
+  .skill-section h2 span {
+    top: -9rem;
+    right: -7.7rem;
+  }
+  .skill-section h2 span::before,
+  .skill-section h2 span::after {
+    right: 1rem;
+    top: 1rem;
+    height: 4.3rem;
+    width: 4.3rem;
+  }
+  .skill-section h2 span::after {
+    height: 1.7rem;
+    width: 1.7rem;
+    left: -7.4rem;
+    top: 7.5rem;
+  }
+  .skill-section .left-wrap p {
+    font-size: 1.3rem;
+  }
+  .skill-section .categories-wrapper .categories {
+    gap: 1rem 0.4rem;
+  }
+  .skill-section .categories-wrapper .categories-block .categories-block__text {
+    letter-spacing: 1px;
+    padding-right: 1.978rem;
+    padding-left: 1.978rem;
+    font-size: 2.4rem;
+  }
+  .project-section .project-list .project-image {
+    height: 12.5rem;
+  }
+  .project-section .project-list .project-info p.name {
+    font-size: 2rem;
+  }
+  .project-section .project-list .project-info p.name a {
+    width: auto;
+  }
+  .project-section .project-list {
+    grid-gap: 3rem 2rem;
+  }
+  .project-section .project-list .project-image {
+    height: 12.5rem;
+  }
+  .project-section .project-list .project-info {
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .wrap p,
+  footer .wrap a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .loader .loading span {
+    font-size: 4.9rem;
+  }
+  .loader .counter span {
+    font-size: 5rem;
+  }
+  .loader .counter-number,
+  .loader .counter-number-second {
+    overflow: hidden;
+    height: 5rem;
+  }
+  .loader .start-btn {
+    font-size: 3.2rem;
+  }
+  header {
+    padding: 3rem 2rem;
+  }
+  header .wrap .logo a span {
+    margin-left: 0.7rem;
+  }
+  header .logo a {
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+  .banner h1 {
+    font-size: 11.6rem;
+    padding: 3rem 2rem 0;
+    letter-spacing: 2px;
+  }
+  .hero-white {
+    top: 61%;
+  }
+  .about::after {
+    top: -33rem;
+    right: -15rem;
+    width: 30rem;
+    height: 30rem;
+  }
+  .about .about-text {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .about .about-text .about-description {
+    width: 100%;
+  }
+  .about .about-text .about-description__text {
+    font-size: 2.4rem;
+    margin-bottom: 2.1rem;
+  }
+  .about .about-text .about-project {
+    width: 20rem;
+    margin-left: auto;
+  }
+  .about .about-text .about-project h2 {
+    font-size: 2.4rem;
+  }
+  .skill-section {
+    padding: 16rem 0 12rem;
+  }
+  .skill-section .wrap {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  .skill-section .left-wrap p {
+    font-size: 2.4rem;
+    width: 51rem;
+  }
+  .skill-section .categories-wrapper .categories {
+    gap: 2.5rem 1.2rem;
+  }
+  .skill-section .categories-wrapper .categories-block .categories-block__text {
+    font-size: 4rem;
+  }
+  .project-section .project-list {
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+  }
+  .project-section .project-list .project-image {
+    height: 25.5rem;
+  }
+  .project-section .project-list .project-info p.name {
+    font-size: 4rem;
+  }
+  .project-section .project-list .project-info p.project-description {
+    font-size: 2.4rem;
+  }
+  .about .about-title__img {
+    width: 17.3rem;
+    height: 22.778rem;
+    top: -1rem;
+  }
 }/*# sourceMappingURL=style.css.map */

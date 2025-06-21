@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 
-const TemplateSimple = ({ title, mainImage, description, skills }) => {
+const TemplateSimple = ({ title, mainImage, description, skills, url }) => {
     return (
         <div className="project-template">
             <div className="container">
@@ -27,7 +28,7 @@ const TemplateSimple = ({ title, mainImage, description, skills }) => {
                         <div className="small-circle"></div>
                         <div className="big-circle"></div>
                         <div className="link-circle">
-                            <a href="">Live Site</a>
+                            <Link target="_blank" to={url}>Live Site</Link>
                         </div>
                     </div>
                 </div>

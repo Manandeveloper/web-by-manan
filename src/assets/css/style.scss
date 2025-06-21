@@ -13,11 +13,12 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     margin: 0 auto;
+    font-size: 0.9375vw;
 }
 
-html {
-    font-size: clamp(14px, 1vw, 18px);
-}
+// html {
+//     font-size: clamp(14px, 1vw, 18px);
+// }
 
 html body {
     font-family: 'Agharti Demi';
@@ -258,7 +259,7 @@ img {
 
 .container {
     width: 96.111rem;
-    padding: 0 0.555rem;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -423,6 +424,7 @@ img {
     position: relative;
     overflow: hidden;
     display: block;
+    display: none;
 }
 
 .about .about-more-btn a::after {
@@ -828,11 +830,11 @@ footer .wrap .date {
 .loader .counter-number,
 .loader .counter-number-second {
     overflow: hidden;
-    height: 65px;
+    height: 3.6rem;
 }
 
 .loader .counter span {
-    font-size: 60px;
+    font-size: 3.6rem;
     text-transform: uppercase;
     display: block;
     transform: translateY(110%);
@@ -847,7 +849,7 @@ footer .wrap .date {
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
-    font-size: 42px;
+    font-size: 2.3rem;
     text-transform: uppercase;
     overflow: hidden;
     border-bottom: 2px solid;
@@ -865,13 +867,13 @@ footer .wrap .date {
 
 .loader .loading {
     position: absolute;
-    bottom: 10px;
-    left: 20px;
+    bottom: 5px;
+    left: 1.2rem;
 }
 
 .loader .loading span {
     font-family: 'Agharti Demi';
-    font-size: 50px;
+    font-size: 2.9rem;
     text-transform: uppercase;
     transform: translateY(100%);
     display: inline-block;

@@ -14,8 +14,8 @@ const About = () => {
             {
                 scrollTrigger: {
                     trigger: '.about-title__img',
-                    start: window.innerWidth < 768 ? 'top 10%' : 'top 70%',
-                    end: window.innerWidth < 768 ? 'bottom -20%' : 'bottom 50%',
+                    start: window.innerWidth < 768 ? 'top 70%' : 'top 70%',
+                    end: window.innerWidth < 768 ? 'bottom 50%' : 'bottom 50%',
                     scrub: 1.3,
                 },
                 bottom: 0,
@@ -31,8 +31,8 @@ const About = () => {
             {
                 scrollTrigger: {
                     trigger: '.about-title__title_wrapper',
-                    start: window.innerWidth < 768 ? 'top 20%' : 'top 85%',
-                    end: window.innerWidth < 768 ? 'bottom -10%' : 'bottom 50%',
+                    start: window.innerWidth < 768 ? 'top 85%' : 'top 85%',
+                    end: window.innerWidth < 768 ? 'bottom 50%' : 'bottom 50%',
                     scrub: 1.3,
                 },
                 y: 0,
