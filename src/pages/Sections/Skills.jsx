@@ -9,6 +9,8 @@ import WordpressImg from '../../assets/images/wordpress.png'
 import GithubImg from '../../assets/images/github.png'
 import JqueryImg from '../../assets/images/jquery.png'
 import ShopifyImg from '../../assets/images/shopify.png'
+import NextJsImg from '../../assets/images/nextjs.png'
+import ThreeImg from '../../assets/images/threejs.jpg'
 import { Link } from 'react-router-dom'
 // const skillsList = [
 //     "html",
@@ -22,12 +24,14 @@ import { Link } from 'react-router-dom'
 //     "shopify",
 // ];
 const skillsList = [
+    { name: 'react', img: ReactImg },
+    { name: 'threejs', img: ThreeImg },
+    { name: 'nextjs', img: NextJsImg },
+    { name: 'wordpress', img: WordpressImg },
     { name: 'html', img: HtmlImg },
     { name: 'js', img: JsImg },
-    { name: 'css', img: CssImg },
     { name: 'gsap', img: GsapImg },
-    { name: 'react', img: ReactImg },
-    { name: 'wordpress', img: WordpressImg },
+    { name: 'css', img: CssImg },
     { name: 'github', img: GithubImg },
     { name: 'jquery', img: JqueryImg },
     { name: 'shopify', img: ShopifyImg },
