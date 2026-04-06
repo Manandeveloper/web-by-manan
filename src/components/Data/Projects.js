@@ -2,13 +2,13 @@
 import NineAxisImg from '../../assets/images/nine-axis.png';
 import GreenlyImg from '../../assets/images/greenly_main_img.png';
 import configImg from '../../assets/images/3d-config.jpg';
-import VitalNeuroImg from '../../assets/images/Vital Neuro.png';
 import SMBImage from '../../assets/images/SMB.jpg';
-import Take2Image from '../../assets/images/take2.jpg';
-import ModelInvestingImage from '../../assets/images/Mondel Investing.png';
-import OfeliaImage from '../../assets/images/ofelia.jpg';
-import BeneBagsImage from '../../assets/images/BeneBegs.png';
-import EdisonImage from '../../assets/images/edisun.jpg';
+// import VitalNeuroImg from '../../assets/images/Vital Neuro.png';
+// import Take2Image from '../../assets/images/take2.jpg';
+// import ModelInvestingImage from '../../assets/images/Mondel Investing.png';
+// import OfeliaImage from '../../assets/images/ofelia.jpg';
+// import BeneBagsImage from '../../assets/images/BeneBegs.png';
+// import EdisonImage from '../../assets/images/edisun.jpg';
 const projects = [
      //    {
      //         id: 'vitalneuro',

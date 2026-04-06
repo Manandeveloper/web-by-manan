@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d32e137.css",
+    "main.js": "/static/js/main.7ed5b4c1.js",
+    "static/js/453.23aee9dc.chunk.js": "/static/js/453.23aee9dc.chunk.js",
+    "static/media/3d-config.jpg": "/static/media/3d-config.b2e3b9ad2e74399819e8.jpg",
+    "static/media/js.png": "/static/media/js.1e347f26fc31b733099a.png",
+    "static/media/gsap.png": "/static/media/gsap.a4e0d159639fb2951025.png",
+    "static/media/react.png": "/static/media/react.67825703eb98011eadaa.png",
+    "static/media/nine-axis.png": "/static/media/nine-axis.0a0263dbfd7ce4b92013.png",
+    "static/media/html.png": "/static/media/html.0b343f9894edff769c0e.png",
+    "static/media/nextjs.png": "/static/media/nextjs.f0b4c7ce6d3cb384fedb.png",
+    "static/media/css.png": "/static/media/css.307cc261fb211faf3c9f.png",
+    "static/media/wordpress.png": "/static/media/wordpress.ae36d2b58cfd2e3d5bbc.png",
+    "static/media/jquery.png": "/static/media/jquery.eccf596faa71e32b4bc2.png",
+    "static/media/shopify.png": "/static/media/shopify.1bf13836dcbbe39a67aa.png",
+    "static/media/greenly_main_img.png": "/static/media/greenly_main_img.f5e4f23131ced6c0f43e.png",
+    "static/media/github.png": "/static/media/github.26ebfb1cfffd4cba0ec7.png",
+    "static/media/me.jpg": "/static/media/me.cbb62fe1858d51d4dc63.jpg",
+    "static/media/threejs.jpg": "/static/media/threejs.20b1af7fa05b42c7aac1.jpg",
+    "static/media/noisy.png": "/static/media/noisy.21451b8adeeb1d49fbc1.21451b8adeeb1d49fbc1.png",
+    "static/media/SMB.jpg": "/static/media/SMB.24f9215202f1cd099d42.jpg",
+    "static/media/AeonikTRIAL-Regular.svg": "/static/media/AeonikTRIAL-Regular.822c4427ceba4e06d0d4.svg",
+    "static/media/Agharti-Bold.eot": "/static/media/Agharti-Bold.c7de84f472686b4d4725.eot",
+    "static/media/Agharti-Bold.ttf": "/static/media/Agharti-Bold.c6871a56e5ccfda84f1f.ttf",
+    "static/media/Agharti-Bold.woff": "/static/media/Agharti-Bold.453766fca100facf6f9b.woff",
+    "static/media/Agharti-Bold.woff2": "/static/media/Agharti-Bold.ed4c213b24d0a61b38dd.woff2",
+    "static/media/AeonikTRIAL-Regular.eot": "/static/media/AeonikTRIAL-Regular.f00cf6f21cb8c27fe009.eot",
+    "static/media/AeonikTRIAL-Regular.ttf": "/static/media/AeonikTRIAL-Regular.1a259f2b9f7c77240f87.ttf",
+    "static/media/AeonikTRIAL-Regular.woff": "/static/media/AeonikTRIAL-Regular.1b47660414403ccd48a6.woff",
+    "static/media/AeonikTRIAL-Regular.woff2": "/static/media/AeonikTRIAL-Regular.b72768518adc8c18e6e3.woff2",
+    "index.html": "/index.html",
+    "main.0d32e137.css.map": "/static/css/main.0d32e137.css.map",
+    "main.7ed5b4c1.js.map": "/static/js/main.7ed5b4c1.js.map",
+    "453.23aee9dc.chunk.js.map": "/static/js/453.23aee9dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d32e137.css",
+    "static/js/main.7ed5b4c1.js"
+  ]
+}
