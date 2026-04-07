@@ -104,7 +104,7 @@ const About = () => {
                         <div className="about-description">
                             <span className="about-description__wrapper">
                                 <span className="about-description__text">
-                                    Hey, I’m Manan — a front-end developer who loves creating visually striking websites with a strong focus on animation and interaction.
+                                    Hey, I’m Manan a front-end developer who loves creating visually striking websites with a strong focus on animation and interaction.
                                 </span>
                             </span>
                             <span className="about-description__wrapper">
@@ -114,7 +114,7 @@ const About = () => {
                             </span>
                         </div>
                         <div className="about-project">
-                            <h2>Let's make your project special! .</h2>
+                            <h2>Let's make your project special!</h2>
                         </div>
                     </div>
                 </div>
