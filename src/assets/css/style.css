@@ -1239,7 +1239,7 @@ footer .wrap .date {
     font-size: 3rem;
   }
   .project-template .top-wrap .skill-list {
-    width: 23rem;
+    width: 100%;
   }
   .project-template .top-wrap .skill-list span {
     font-size: 1rem;
@@ -1247,6 +1247,9 @@ footer .wrap .date {
   .project-template .top-wrap,
   .project-template .case-description .wrap {
     padding: 4rem 0 3rem;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 3rem;
   }
   .project-template .case-description h2 {
     font-size: 3rem;
@@ -1255,7 +1258,7 @@ footer .wrap .date {
     font-size: 1.1rem;
   }
   .project-template .case-description .wrap .desc {
-    width: 33rem;
+    width: 100%;
   }
   .project-template .case-description .small-circle {
     left: 10rem;
